@@ -1,7 +1,24 @@
 ## Real-time SDR for mono/stereo FM and RDS
 
-The main objective of the project is to navigate a complex speciﬁcation and develop an understanding of the challenges that must be addressed for a real-time implementation of a computing system operating in a form factor-constrained environment. 
+Project Overview:
+In this repository, I've developed a Real-Time Software Defined Radio (SDR) system capable of handling Mono/Stereo FM and RDS signals. This project was undertaken as part of the Computer Systems Integration Project at McMaster University, showcasing my capabilities in managing real-time signal processing challenges within constrained environments.
 
-The project description is available in the project [document](doc/3dy4-project-2024.pdf). The unique constraints for each group for different modes of operation (i.e., custom sample rates) are available [here](doc/3dy4-constraints-group-62.pdf).
+Project Description:
+The SDR system is designed to:
+- Receive and process FM broadcast signals in both mono and stereo formats.
+- Decode and present Radio Data System (RDS) information transmitted alongside standard FM broadcasts.
+- Operate efficiently under custom sample rates and specific signal processing constraints unique to our project group.
 
-All the project source code must be submitted before 7 p.m. on March 28. The project cross-examinations and oral presentations will run in the week of April 1, and the detailed final project report is due before 7 p.m. on April 5. 
+Technical Highlights:
+- Language & Tools: Primarily developed in C/C++.
+- Signal Processing: Utilizes custom digital signal processing algorithms for FM demodulation and RDS decoding.
+- Optimization: Focuses on enhancing performance for real-time execution within limited computing environments.
+
+Project Outcome:
+Successfully implementing this project demonstrated my proficiency in navigating digital signal processing concepts and applying them to real-world scenarios. It solidified my understanding of software-defined radio technologies in constrained computational environments.
+
+Repository Contents:
+- src/: Contains the foundational C++ code for the project, including the makefile.
+- include/: Houses the C++ header files for the project.
+- model/: Includes a Python model utilized for testing purposes.
+- doc/: Features comprehensive documentation and a detailed report on the project's implementation.
